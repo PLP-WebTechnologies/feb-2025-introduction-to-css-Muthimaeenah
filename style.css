@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Applying font */
+    background-color: #f0f0f0; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+header#main-header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Large font size for the header */
+}
+
+section.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2.subheading {
+    color: #333333; /* Dark text color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* Styling the image */
+.image-style {
+    width: 100%;
+    max-width: 400px; /* Maximum width */
+    border: 5px solid #ddd; /* Adding a border around the image */
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
